@@ -1,4 +1,5 @@
 import classes from "./MealItem.module.css"
+import MealItemForum from "./MealItemForum"
 
 
 
@@ -15,7 +16,7 @@ const MealItem = (props) => {
         <div className={classes.price}>{price}</div>
       </div>
       <div>
-
+        <MealItemForum />
       </div>
     </li>
   )
